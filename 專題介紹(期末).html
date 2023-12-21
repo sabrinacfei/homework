@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///C:/Users/ASUS/Desktop/%E7%A0%94%E7%A9%B6.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引入 Bootstrap 的 CSS -->
+  <link href="./專題介紹(期末)_files/bootstrap.min.css" rel="stylesheet">
+  <title>專題介紹(期末)</title>
+<style>
+	body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cw1.tw/CC/images/article/201802/article-ck-5a813bf4d0da7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7; /* 調整透明度，值在 0 到 1 之間，0 表示完全透明，1 表示完全不透明 */
+  z-index: -1; /* 將伪元素放在最底層，不擋住其他內容 */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  transition: margin-left 0.5s;
+  z-index: 1; /* 提高body的z-index，使其在伪元素之上 */
+}
+
+    html{ 
+	height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav {
+        background-color: #888;
+        color: #fff;
+        padding: 0.5em;
+	position: sticky; /*菜單固定上方*/
+    	top: 0;
+    	width: 100%;
+    	z-index: 1000;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    section {
+        padding: 2em;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    body {
+ 	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 20px;
+    }
+
+    #myBtn {
+ 	 display: none;
+ 	 position: fixed;
+ 	 bottom: 20px;
+ 	 right: 30px;
+  	z-index: 99;
+  	font-size: 18px;
+  	border: none;
+  	outline: none;
+ 	 background-color: red;
+  	color: white;
+ 	 cursor: pointer;
+ 	 padding: 15px;
+ 	 border-radius: 4px;
+      }
+
+   #myBtn:hover {
+        background-color: #555;
+     }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+    }
+
+    .search-container input {
+    margin-right: 10px; 
+    }
+body {
+      font-family: Arial, sans-serif;
+      transition: margin-left 0.5s; /* 加入過渡效果 */
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      padding-top: 20px;
+      padding-left: 10px;
+      transition: width 0.5s; /* 加入過渡效果 */
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #818181;
+      display: block;
+      transition: padding 0.5s; /* 加入過渡效果 */
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 16px;
+      transition: margin-left 0.5s; /* 加入過渡效果 */
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        margin-left: 0;
+      }
+
+      .sidenav {
+        width: 0;
+        padding: 20px 0;
+      }
+
+      .sidenav a {
+        padding: 8px 0;
+      }
+
+      .content {
+        margin-left: 0;
+      }
+    }  
+  	
+		
+</style>
+</head>
+
+<body>
+
+
+<script src="./專題介紹(期末)_files/bootstrap.bundle.min.js.下載"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Top</button>
+
+<script>
+	let mybutton = document.getElementById("myBtn");
+
+// 當使用者從文件頂部向下捲動 20px 時，顯示按鈕
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   		 mybutton.style.display = "block";
+  	} else {
+   		 mybutton.style.display = "none";
+ 	 }
+    }
+
+// 當使用者點擊按鈕時，捲動到文件頂部
+	function topFunction() {
+  	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+     }
+</script>
+	
+
+    <header>
+        <h1>Welcome to My Website:
+	<br>
+	 guide to subject records!</h1>
+    </header>
+
+<nav>
+  <ul>
+    <li><a href="file:///C:/Users/ASUS/Desktop/%E7%A0%94%E7%A9%B6.html#section1">關於健康</a></li>
+    <li><a href="file:///C:/Users/ASUS/Desktop/%E7%A0%94%E7%A9%B6.html#section2">動作/冒險遊戲</a></li>
+    <li><a href="file:///C:/Users/ASUS/Desktop/%E7%A0%94%E7%A9%B6.html#section3">歷史遊戲</a></li>
+    <li><a href="file:///C:/Users/ASUS/Desktop/%E7%A0%94%E7%A9%B6.html#section4">其他內容</a></li>
+  </ul>
+
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="搜尋專題...">
+    <button onclick="searchProjects()">搜尋</button>
+  </div>
+<div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+    王慶生教授
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1euSvKQYurpdoXlX3cWbmlmVQiHPwfGaA/view?usp=drive_link">牛津學堂</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1bus3U7Jeg32IPqaTSMYApEEFPQ85mdcU/view?usp=drive_link">創世真理</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+   蘇維宗教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1uKuOCi8TslAj_5GIJ300EngjDIlsf_Ek/view?usp=sharing">穴道APP-穴穴尼</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1ooPaxNKvHLVY_JOr7M2wQLikEJqGZXTI/view?usp=drive_link">供應鏈BC應用</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+    游國忠教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-lg-end">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/12Gs4zDeS8azf1Tmgs7yr2_ms8z65ZSm9/view?usp=drive_link">以電腦視覺為基礎之動作正確性評估</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1ja9ydXtBMrIwRf42WeeC-yX2IlxH4iJ8/view?usp=drive_link">基於人臉辨識研究及其在防疫之應用</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+    黃信貿教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1-Ym5DconSBt6e5aV2YqZDVuss4EbX58n/view?usp=drive_link">自動跟隨行李箱</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    謝明興教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1SUx0rybnlExLRWtxar18oNIvPkWg6rA-/view?usp=drive_link">前往三國之路</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1EFwy48rI_M0DD8DwwwLDlqs3cArvtdyc/view?usp=drive_link">追魂者</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1BJwz-u4AxzcSgEKpScMRVyIj7ql95yI3/view?usp=drive_link">歷史走透透</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    薛智誠教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1dMKXr8PYCQ8ECHDr6YtlIZdpZuwJqDLq/view?usp=drive_link">異界尋訪</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1z6gaP5ouN9umr8SCdZjrpDxPHbaSMDe_/view?usp=drive_link">秦陵長生之眼</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    陳炯良教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1QpiUpiFo_owoTdoiH0hcaT9UPa4K1Ttq/view?usp=drive_link">AI體適能教練</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1hmow6vwc_0nVAdvpuBQ1dfWizMpKXp84/view?usp=drive_link">運動追蹤輔助系統</a></li>
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1hpG9vji4YhuejQUzoS0DuTJsk71Q0LN3/view?usp=drive_link">敏捷反應訓練儀</a></li>
+  </ul>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    葉建華教授
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+    <li><a class="dropdown-item" href="https://drive.google.com/file/d/1Cv92MFywQEFpnhZfM9BGqExZdCmxMM0f/view?usp=drive_link">笑臉島</a></li>
+  </ul>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+<script src="./專題介紹(期末)_files/bootstrap.bundle.min(1).js.下載"></script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+</script>
+
+  <section id="section1">
+    <h2 onclick="scrollToSection(&#39;section1&#39;)">健康</h2>
+    <p>專題關於健康</p>
+    <h3 onclick="scrollToSection(&#39;section1&#39;)">AI體適能教練</h3>
+    <ol>
+   	 <li><a href="https://drive.google.com/file/d/1W8MzuHu9eIWZnIkp_2a6l9i8ogUyec8Z/view?usp=drive_link">前往AI體適能教練三折頁</a></li>
+     	<li><a href="https://drive.google.com/file/d/1QpiUpiFo_owoTdoiH0hcaT9UPa4K1Ttq/view?usp=drive_link">前往AI體適能教練海報</a></li>
+    </ol>
+    <h3>穴道APP-穴穴尼</h3>
+    <ol>
+      	 <li><a href="https://drive.google.com/file/d/1SdDE6AJl5irD_XKVq-ZJSgjY9HKJ1Izb/view?usp=drive_link">前往穴道APP-穴穴尼折張一</a></li>
+       	 <li><a href="https://drive.google.com/file/d/1qqpuxXEPq81LJ-rGk13yN3i9OBOjS29_/view?usp=drive_link">前往穴道APP-穴穴尼折張二</a></li>
+       	 <li><a href="https://drive.google.com/file/d/13bhefIPQO99jPv8S520VF697gFYwahRu/view?usp=drive_link">前往穴道APP-穴穴尼海報</a></li>
+    </ol>
+    <h3>基於人臉辨識研究及其在防疫之應用</h3>
+	<ol>
+	 <li><a href="https://drive.google.com/file/d/1GMv6KAJlICdvhLgTlH8mDh0RHWwasxhU/view?usp=drive_link">前往基於人臉辨識研究及其在防疫之應用折張</a></li>
+        <li><a href="https://drive.google.com/file/d/1ja9ydXtBMrIwRf42WeeC-yX2IlxH4iJ8/view?usp=drive_link">前往基於人臉辨識研究及其在防疫之應用海報</a></li>
+	</ol>
+    <h3>敏捷反應訓練儀</h3>
+	<ol>
+  	 <li><a href="https://drive.google.com/file/d/13S0hIeZH3ammpaabzRV57H5eZmimP_1Q/view?usp=drive_link">前往敏捷反應訓練儀折張</a></li>
+   	 <li><a href="https://drive.google.com/file/d/1hpG9vji4YhuejQUzoS0DuTJsk71Q0LN3/view?usp=drive_link">前往敏捷反應訓練儀海報</a></li>
+	</ol>
+
+     <h3>運動追蹤輔助系統</h3>
+	<ol>
+         <li>
+		<a href="https://drive.google.com/file/d/1hPLWamMDztGiINxRzgwrYBZsCM2_kvfb/view?usp=drive_link">前往運動追蹤輔助系統折張</a></li>
+          <li>
+		<a href="https://drive.google.com/file/d/1hmow6vwc_0nVAdvpuBQ1dfWizMpKXp84/view?usp=drive_link">前往運動追蹤輔助系統海報</a></li>
+	 </ol>
+</section>
+
+    <section id="section2">
+        <h2>動作/冒險遊戲</h2>
+        <p>專題關於遊戲</p>
+	 <h3>笑臉島</h3>
+    <ol>
+        <li>
+		<a href="https://drive.google.com/file/d/1m8IkWEJjVIlyWPACaIpCsW9XkYLe9OeX/view?usp=drive_link">前往笑臉島三折頁正面</a></li>
+        <li>
+		<a href="https://drive.google.com/file/d/1mAebwo15RPXuojPSd9CnrNG8Oeuf6E97/view?usp=drive_link">前往笑臉島三折頁背面</a></li>
+        <li>
+		<a href="https://drive.google.com/file/d/1Cv92MFywQEFpnhZfM9BGqExZdCmxMM0f/view?usp=drive_link">前往笑臉島海報</a></li> 
+    </ol>
+
+	<h3>追魂者</h3>
+ 	<ol>
+           <li>
+                <a class="https://drive.google.com/file/d/1OmFmpF-0DSQXZ9J_lCvRZgnwFolni0Hr/view?usp=drive_link">前往追魂者折張</a>
+            </li>
+            <li>                
+		<a class="https://drive.google.com/file/d/1EFwy48rI_M0DD8DwwwLDlqs3cArvtdyc/view?usp=drive_link">前往追魂者海報</a>
+            </li>
+        </ol>
+
+	<h3>異界尋訪</h3>
+	<ol>
+	<li>
+		<a class="https://drive.google.com/file/d/1g1CLXqVhRzzac_bcCzxG2a_2Pu6jIwkR/view?usp=drive_link">前往異界尋訪折張</a>
+	</li>
+	<li>
+		<a class="https://drive.google.com/file/d/1dMKXr8PYCQ8ECHDr6YtlIZdpZuwJqDLq/view?usp=drive_link">前往異界尋訪海報</a>
+	</li>
+	</ol>
+	
+	 <h3>創世真理</h3>
+	 <ol>
+            <li>    
+		<a class="https://drive.google.com/file/d/1fmqNKNkvYWSLZQQcSjN3uBpqBSy-aNO4/view?usp=drive_link">前往創世真理折章</a>
+            </li>
+            <li>
+                <a class="https://drive.google.com/file/d/1bus3U7Jeg32IPqaTSMYApEEFPQ85mdcU/view?usp=drive_link">前往創世真理海報</a>
+            </li>
+        </ol>
+</section>
+	
+	<section id="section3">
+<h2>歷史遊戲</h2>
+<p>專題關於歷史的遊戲</p>
+	 <h3>牛津學堂VIEW360</h3>
+   	 <ol>
+        <li>
+            <a href="https://drive.google.com/file/d/1No5lUvK6XQhMsWxSA6VE9poKiFrX7s1v/view?usp=drive_link">前往牛津學堂VIEW360折張</a>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/1euSvKQYurpdoXlX3cWbmlmVQiHPwfGaA/view?usp=drive_link">前往牛津學堂VIEW360海報</a>
+        </li>
+    </ol>
+
+	<h3>前往三國之路</h3>
+       <ol>
+            <li>
+                <a class="https://drive.google.com/file/d/1L2atG79oubKoBCRFhGVzMu4obcXwpwZ6/view?usp=drive_link">前往三國之路折張</a>
+            </li>
+            <li>
+                <a class="https://drive.google.com/file/d/1SUx0rybnlExLRWtxar18oNIvPkWg6rA-/view?usp=drive_link">前往三國之路海報</a>
+            </li>
+        </ol>
+
+	<h3秦陵長生之眼< h3="">
+	<ol>
+	    <li>
+		<a href="https://drive.google.com/file/d/1i3PWU_VoqVLs1xgIlyh9GJBJsNO_SNrN/view?usp=drive_link">前往秦陵長生之眼折張</a>
+	    </li>
+	    <li>
+		<a href="https://drive.google.com/file/d/1z6gaP5ouN9umr8SCdZjrpDxPHbaSMDe_/view?usp=drive_link">前往秦陵長生之眼海報</a>
+	    </li>
+	</ol>
+
+	<h3>歷史走透透</h3>
+	<ol>
+	   <li>
+		<a href="https://drive.google.com/file/d/1SnHGCtZdAda-ir8PUCz5n5Fua67UfFXa/view?usp=drive_link">前往歷史走透透折張</a>
+	   </li>
+	   <li>
+		<a href="https://drive.google.com/file/d/1BJwz-u4AxzcSgEKpScMRVyIj7ql95yI3/view?usp=drive_link">前往歷史走透透海報</a>
+	  </li>
+	</ol>	 
+</h3秦陵長生之眼<></section>
+
+<section id="section4">
+	<h2>其他內容</h2>
+	<h3>自動跟隨行李箱</h3>
+		<ol>
+		   <li>
+			<a href="https://drive.google.com/file/d/1H6xglUHPBP01zkhrASHYWSRWba_ndE0p/view?usp=drive_link">前往自動跟隨行李箱折張一</a>
+		</li>
+
+		<li>
+			<a href="https://drive.google.com/file/d/1iQA-a_TgyKRgzDUgOS3Nxov9O6czDI1_/view?usp=drive_link">前往自動跟隨行李箱折張二</a>
+		</li>
+
+		<li>
+			<a href="https://drive.google.com/file/d/1-Ym5DconSBt6e5aV2YqZDVuss4EbX58n/view?usp=drive_link">前往自動跟隨行李箱海報</a>
+		</li>
+		</ol>
+
+	<h3>供應鏈BC應用</h3>
+	<ol>
+		    <li>
+        		<a href="https://drive.google.com/file/d/1ZJWqA5g5BGQv2Cuo29LoDhDbV8PHZZMT/view?usp=drive_link">前往供應鏈BC應用折張</a>
+		    </li>
+
+    		    <li>
+			<a href="https://drive.google.com/file/d/1ooPaxNKvHLVY_JOr7M2wQLikEJqGZXTI/view?usp=drive_link">前往供應鏈BC應用海報</a>
+    		   </li>
+		
+	</ol>	
+	<br>
+	<br>
+	<br>
+
+</section>	
+
+    <footer>
+        <p>© 2023 期末作業</p>
+    </footer>
+
+
+
+</body></html>
